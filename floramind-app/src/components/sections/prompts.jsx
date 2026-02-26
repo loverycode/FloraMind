@@ -11,7 +11,7 @@ const Prompts = () => {
             <img src="/images/third_screen/leaves_rb.png" alt="декор листья" className="leaves_rb" />
         
                  <div className="card-photos">
-                    <img src="/images/third_screen/prompt1.png" alt="1_prompt prompt1-img" className="card-prompt-img prompt1-img" />
+                    <img src="/images/third_screen/prompt1.png" alt="1_prompt prompt1-img" className=" prompt1-img" />
                     <img src="/images/third_screen/prompt2.png" alt="2_prompt prompt2-img" className="card-prompt-img prompt2-img" />
                     <img src="/images/third_screen/prompt3.png" alt="3_prompt prompt3-img" className="card-prompt-img prompt3-img" />
                 </div>
@@ -33,6 +33,8 @@ const Prompts = () => {
 
                             title5="Возраст"
                             subtitle5="Молодой (20-35 лет)"
+
+                            cardcolor="pink"
                         />
                         <Card 
                             title1="Юбилей"
@@ -49,6 +51,8 @@ const Prompts = () => {
 
                             title5="Возраст"
                             subtitle5="Взрослый (40-55 лет)"
+
+                            cardcolor="orange"
                         />
                         <Card 
                             title1="Поднять настроение"
@@ -64,6 +68,8 @@ const Prompts = () => {
 
                             title5="Возраст"
                             subtitle5="Подросток (13-19 лет)"
+
+                            cardcolor="purple"
                         />
                     </div>
                 </div>
