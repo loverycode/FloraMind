@@ -21,10 +21,27 @@
     gap: 1.5rem;
     padding: 0 0 2rem 0;
     padding-top: 18rem;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
     overflow: visible;
     margin-top:3rem;
+}
+.card-pink{
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+.card-pink:hover{
+    box-shadow: 0 4px 20px 0 #f7bcc7;
+}
+.card-orange{
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+.card-orange:hover{
+    box-shadow: 0 4px 20px 0 #fcc693;
+}
+.card-purple{
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+.card-purple:hover{
+    box-shadow: 0 4px 20px 0 #edd7f1;
 }
 
 .card-text-block {
@@ -46,6 +63,7 @@
     font-size: 1.8rem;
     color: #000;
     margin: 0;
+    padding-top:4rem;
 }
 
 .card-subtitle {

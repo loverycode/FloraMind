@@ -6,10 +6,10 @@ const Promo=()=>{
         <section className="promo">
             <div className="promo-content">
                 <div className="promo-code">
-                    <img src="/images/six_screen/promo20.png" alt="" className="promo20" />
                     <img src="/images/six_screen/leaves_left.png" alt="" className="promo-leaves-l" />
                     <img src="/images/six_screen/leaves_right.png" alt="" className="promo-leaves-r" />
                     <div className="inner-promo-code">
+                        <img src="/images/six_screen/promo20.png" alt="" className="promo20" />
                         <p className="text-promo-code">
                             получай скидку 20% на первую генерацию с FloraMind <br></br>по промокоду: <b>PROMO20</b>
                         </p>
