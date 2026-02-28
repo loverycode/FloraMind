@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/floramind-app/static/css/main.29c6294f.css",
-    "main.js": "/floramind-app/static/js/main.623bc9f6.js",
-    "index.html": "/floramind-app/index.html",
-    "main.29c6294f.css.map": "/floramind-app/static/css/main.29c6294f.css.map",
-    "main.623bc9f6.js.map": "/floramind-app/static/js/main.623bc9f6.js.map"
+    "main.css": "/FloraMind/static/css/main.29c6294f.css",
+    "main.js": "/FloraMind/static/js/main.2aec6864.js",
+    "index.html": "/FloraMind/index.html",
+    "main.29c6294f.css.map": "/FloraMind/static/css/main.29c6294f.css.map",
+    "main.2aec6864.js.map": "/FloraMind/static/js/main.2aec6864.js.map"
   },
   "entrypoints": [
     "static/css/main.29c6294f.css",
-    "static/js/main.623bc9f6.js"
+    "static/js/main.2aec6864.js"
   ]
 }
