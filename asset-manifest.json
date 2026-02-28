@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/FloraMind/static/css/main.29c6294f.css",
-    "main.js": "/FloraMind/static/js/main.e17b2c9f.js",
+    "main.js": "/FloraMind/static/js/main.4f309cff.js",
     "index.html": "/FloraMind/index.html",
     "main.29c6294f.css.map": "/FloraMind/static/css/main.29c6294f.css.map",
-    "main.e17b2c9f.js.map": "/FloraMind/static/js/main.e17b2c9f.js.map"
+    "main.4f309cff.js.map": "/FloraMind/static/js/main.4f309cff.js.map"
   },
   "entrypoints": [
     "static/css/main.29c6294f.css",
-    "static/js/main.e17b2c9f.js"
+    "static/js/main.4f309cff.js"
   ]
 }
