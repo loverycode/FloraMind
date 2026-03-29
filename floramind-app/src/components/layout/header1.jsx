@@ -8,7 +8,7 @@ const Header = () =>{
         <header className="header">
             <Container>
                 <div className="nav-content">
-                    <img src="/images/first_screen/logo_firstscreen.png" alt="logo FloraMind" className="logo" />
+                    <img src={`${process.env.PUBLIC_URL}/images/first_screen/logo_firstscreen.png`} alt="logo FloraMind" className="logo" />
                     <nav className="nav">
                          <Link to='/' className="header-link">О нас</Link>
                         <Link to='/' className="header-link">Галерея</Link>

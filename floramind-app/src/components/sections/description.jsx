@@ -3,8 +3,8 @@ import './description.css'
 const Description =()=>{
     return(
         <section className="ddescription">
-            <img src="/images/second_screen/leaves_left.png" alt="декор листья" className="dleaves_left" />
-            <img src="/images/second_screen/leaves_right.png" alt="декор листья" className="dleaves_right" />
+            <img src={`${process.env.PUBLIC_URL}/images/second_screen/leaves_left.png`} alt="декор листья" className="dleaves_left" />
+            <img src={`${process.env.PUBLIC_URL}/images/second_screen/leaves_right.png`} alt="декор листья" className="dleaves_right" />
             <div className="dtext-block">
                 <h3 className="dtitle">FloraMind</h3>
                 <p className="dsub-title">

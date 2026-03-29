@@ -7,14 +7,14 @@ const Chatsection=()=>{
     return(
         <section className="chatsection">
             <Container>
-                <img src="/images/fifth_screen/leaves_1.png" alt="" className="leaves_1" />
-                <img src="/images/fifth_screen/leaves_2.png" alt="" className="leaves_2" />
-                <img src="/images/fifth_screen/leaves_3.png" alt="" className="leaves_3" />
-                <img src="/images/fifth_screen/leaves_4.png" alt="" className="leaves_4" />
-                <img src="/images/fifth_screen/leaves_5.png" alt="" className="leaves_5" />
+                <img src={`${process.env.PUBLIC_URL}/images/fifth_screen/leaves_1.png`} alt="" className="leaves_1" />
+                <img src={`${process.env.PUBLIC_URL}/images/fifth_screen/leaves_2.png`} alt="" className="leaves_2" />
+                <img src={`${process.env.PUBLIC_URL}/images/fifth_screen/leaves_3.png`} alt="" className="leaves_3" />
+                <img src={`${process.env.PUBLIC_URL}/images/fifth_screen/leaves_4.png`} alt="" className="leaves_4" />
+                <img src={`${process.env.PUBLIC_URL}/images/fifth_screen/leaves_5.png`} alt="" className="leaves_5" />
                 <div className="chat-wrap">
                     <div className="logo-container">
-                        <img src="/images/fifth_screen/logo.png" alt="logo" className="chat-logo" />
+                        <img src={`${process.env.PUBLIC_URL}/images/fifth_screen/logo.png`} alt="logo" className="chat-logo" />
                         <div className="ai-circle">
                             <p className="logo-ai">Ai</p>
                         </div>

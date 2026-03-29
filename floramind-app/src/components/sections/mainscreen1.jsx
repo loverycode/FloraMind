@@ -14,7 +14,7 @@ const Mainscreen = () =>{
            <Container>
             <div className="main-main-content">
                 <div className="main-text-block">
-                    <img src='/images/first_screen/h1_title_pink.png' alt="Flora Mind" className="main-title-img"></img>
+                    <img src={`${process.env.PUBLIC_URL}/images/first_screen/h1_title_pink.png`} alt="Flora Mind" className="main-title-img"></img>
                     <div className="main-mini-text-block">
                         <h3 className="main-sub-title">Персонализированные цветочные композиции,
                         которые идеально подходят для вашего случая, настроения и получателя

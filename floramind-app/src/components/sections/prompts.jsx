@@ -5,18 +5,18 @@ import './prompts.css';
 const Prompts = () => {
     return(
         <section className="prompts">
-            <img src="/images/third_screen/leaves_lt.png" alt="декор листья" className="leaves_lt" />
-            <img src="/images/third_screen/leaves_lb.png" alt="декор листья" className="leaves_lb" />
-            <img src="/images/third_screen/leaves_rt.png" alt="декор листья" className="leaves_rt" />
-            <img src="/images/third_screen/leaves_rb.png" alt="декор листья" className="leaves_rb" />
+            <img src={`${process.env.PUBLIC_URL}/images/third_screen/leaves_lt.png`} alt="декор листья" className="leaves_lt" />
+            <img src={`${process.env.PUBLIC_URL}/images/third_screen/leaves_lb.png`} alt="декор листья" className="leaves_lb" />
+            <img src={`${process.env.PUBLIC_URL}/images/third_screen/leaves_rt.png`} alt="декор листья" className="leaves_rt" />
+            <img src={`${process.env.PUBLIC_URL}/images/third_screen/leaves_rb.png`} alt="декор листья" className="leaves_rb" />
         
                  <div className="card-photos">
-                    <img src="/images/third_screen/prompt1.png" alt="1_prompt prompt1-img" className=" prompt1-img" />
-                    <img src="/images/third_screen/prompt2.png" alt="2_prompt prompt2-img" className="card-prompt-img prompt2-img" />
-                    <img src="/images/third_screen/prompt3.png" alt="3_prompt prompt3-img" className="card-prompt-img prompt3-img" />
+                    <img src={`${process.env.PUBLIC_URL}/images/third_screen/prompt1.png`} alt="1_prompt prompt1-img" className=" prompt1-img" />
+                    <img src={`${process.env.PUBLIC_URL}/images/third_screen/prompt2.png`} alt="2_prompt prompt2-img" className="card-prompt-img prompt2-img" />
+                    <img src={`${process.env.PUBLIC_URL}/images/third_screen/prompt3.png`} alt="3_prompt prompt3-img" className="card-prompt-img prompt3-img" />
                 </div>
                 <div className="container">
-                    <img src="/images/third_screen/h2_title.png" alt="Готовые идеи промптов" className="h2_title" />
+                    <img src={`${process.env.PUBLIC_URL}/images/third_screen/h2_title.png`} alt="Готовые идеи промптов" className="h2_title" />
                     <div className="card-content">
                         <Card 
                             title1="Первое свидание"
